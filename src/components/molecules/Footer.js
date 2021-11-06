@@ -15,5 +15,4 @@ const Sdiv = styled.div`
     color: white;
     text-align: center;
     padding-top: 40px
-    bottom: 0;
 `
