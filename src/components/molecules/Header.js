@@ -1,17 +1,50 @@
 import styled from "styled-components";
 import mediaQuery from "styled-media-query";
+import { useEffect } from "react"
+import gsap from "gsap";
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { Link as Scroll } from "react-scroll"
+import { NavRouter } from "../routers/NavRouter";
 
 const mediaMobile = mediaQuery.lessThan("medium");
 
 export const Header = () => {
+
+    useEffect(() => {
+        if(process.browser) {
+            gsap.registerPlugin(ScrollTrigger)
+            setAnimation()
+        }
+    }, [])
+    
+    const setAnimation = () => {
+        gsap.fromTo(
+            '#animation',
+            {opacity: 0, y: 10},
+            {opacity: 1, y: 0, duration: 1, 
+            scrollTrigger: {
+                trigger: '#animation',
+                start: 'top center',
+                end: 'bottom: center',
+            }}
+        )
+    }
+
     return(
-        <Sdiv>
-            <Sul>
-                <Sli><Sa href="#profile">Profile</Sa></Sli>
-                <Sli><Sa href="#skill">Skill</Sa></Sli>
-                <Sli><Sa href="#works">Works</Sa></Sli>
-                <Sli><Sa href="#contact">Contact</Sa></Sli>
-            </Sul>
+        <Sdiv id='animation'>
+            {NavRouter.map((router) => {
+                        return(
+                            <Snav>
+                                <Scroll 
+                                to={router.Id} 
+                                smooth={true}
+                                duration={600}
+                                >
+                                    {router.navName}
+                                </Scroll>
+                            </Snav>
+                        )
+                    })}
         </Sdiv>
     )
 }
@@ -21,6 +54,7 @@ const Sdiv = styled.div`
     color: white;
     height: 100px;
     position: fixed;
+    display: flex;
     margin: 0;
     top: 0;
     left: 0;
@@ -30,23 +64,12 @@ const Sdiv = styled.div`
     `}
 `
 
-const Sul = styled.ul`
-    display: flex;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-`
-
-const Sli = styled.li`
+const Snav = styled.nav`
     width: 25%;
-    margin-top: 40px;
+    text-align: center;
+    padding-top: 40px;
+    cursor: pointer;
     ${mediaMobile`
-        margin-top: 25px
+        padding-top: 25px;
     `}
-`
-
-const Sa = styled.a`
-    color: white;
-    text-decoration: none;
 `
