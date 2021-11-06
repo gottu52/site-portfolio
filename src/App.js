@@ -1,27 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 import { Header } from './components/molecules/Header';
+import { Top } from './components/molecules/Top';
+import { SpanBox } from './components/attoms/SpanBox';
+import { Background } from './components/template/Background';
+import { Profile } from './components/molecules/Profile';
 
 function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
     <div>
       <Header />
+      <Top />
+      <Background>  
+        <SpanBox />
+        <Profile />
+      </Background>
     </div>
   );
 }
