@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import gsap from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-export const Wrapper = (props) => {
+export const AnimationWrapper = (props) => {
     const { children } = props;
 
     useEffect(() => {
@@ -16,7 +16,7 @@ export const Wrapper = (props) => {
     const setAnimation = () => {
         gsap.fromTo(
             '#animation',
-            {opacity: 0, y: 5},
+            {opacity: 0, y: 15},
             {opacity: 1, y: 0, duration: 1, 
             scrollTrigger: {
                 trigger: '#animation',
