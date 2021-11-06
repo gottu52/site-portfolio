@@ -6,5 +6,5 @@ export const SpanBox = () => {
 
 const Sdiv = styled.div`
     width: 100%;
-    height: 100px;
+    height: 200px;
 `

@@ -5,6 +5,8 @@ import { SpanBox } from './components/attoms/SpanBox';
 import { Background } from './components/template/Background';
 import { Profile } from './components/molecules/Profile';
 import { Works } from './components/molecules/Works';
+import { Contact } from './components/molecules/Contact';
+import { Footer } from './components/molecules/Footer';
 
 function App() {
   return (
@@ -18,6 +20,10 @@ function App() {
         {/* <Skill />
         <SpanBox /> */}
         <Works />
+        <SpanBox />
+        <Contact />
+        <SpanBox />        
+        <Footer />
       </Background>
     </div>
   );
