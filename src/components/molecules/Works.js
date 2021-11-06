@@ -3,6 +3,9 @@ import runningMethod from "../../images/RunningMethodImage.png";
 import hairSalon from "../../images/HairSalonImage.png";
 import gym from "../../images/GymImage.png";
 import thisSite from "../../images/portfolioImage.png"
+import mediaQuery from "styled-media-query";
+
+const mediaMobile = mediaQuery.lessThan("medium");
 
 export const Works = () => {
     return(
@@ -59,10 +62,16 @@ const Sdiv = styled.div`
 const Sflex = styled.div`
     display:flex;
     flex-wrap: wrap;
+    ${mediaMobile`
+        display: block;
+    `}
 `
 
 const Sul = styled.ul`
     margin: 40px 0;
+    ${mediaMobile`
+        padding: 0 0 40px 0;
+    `}
 `
 
 const Simg = styled.img`

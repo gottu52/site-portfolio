@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import mediaQuery from "styled-media-query";
+
+const mediaMobile = mediaQuery.lessThan("medium");
 
 export const Header = () => {
     return(
@@ -22,6 +25,9 @@ const Sdiv = styled.div`
     top: 0;
     left: 0;
     right: 0;
+    ${mediaMobile`
+        height: 70px;
+    `}
 `
 
 const Sul = styled.ul`
@@ -35,6 +41,9 @@ const Sul = styled.ul`
 const Sli = styled.li`
     width: 25%;
     margin-top: 40px;
+    ${mediaMobile`
+        margin-top: 25px
+    `}
 `
 
 const Sa = styled.a`

@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import mediaQuery from "styled-media-query";
+
+const mediaMobile = mediaQuery.lessThan("medium");
 
 export const Contact = () => {
     return(
@@ -20,8 +23,14 @@ const Sdiv = styled.div`
     text-align: center;
     border-radius: 8px;
     background: white;
+    ${mediaMobile`
+        width: 300px;
+    `}
 `
 
 const Sli = styled.li`
     font-size: 30px;
+    ${mediaMobile`
+        font-size: 18px;
+    `}
 `

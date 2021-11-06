@@ -1,4 +1,7 @@
 import styled from "styled-components"
+import mediaQuery from "styled-media-query";
+
+const mediaMobile = mediaQuery.lessThan("medium");
 
 export const SpanBox = (props) => {
     const { id } = props;
@@ -8,4 +11,7 @@ export const SpanBox = (props) => {
 const Sdiv = styled.div`
     width: 100%;
     height: 200px;
+    ${mediaMobile`
+        height: 100px;
+    `}
 `

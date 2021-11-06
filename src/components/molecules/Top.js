@@ -1,5 +1,8 @@
 import TopImage from "../../images/topImage.png";
 import styled from "styled-components";
+import mediaQuery from "styled-media-query";
+
+const mediaMobile = mediaQuery.lessThan("medium");
 
 export const Top = () => {
     return(
@@ -18,13 +21,19 @@ const Sdiv = styled.div`
 const Stitle = styled.h1`
     text-align: center;
     padding: 50px 0;
-    margin: 0;
-    margin-top: 100px;
+    margin: 100px 0 0 0;
     font-size: 60px;
     background: white;
+    ${mediaMobile`
+        text-align: left;
+        padding-left: 10px;
+    `}
 `
 
 const Simage = styled.img`
     width: 100%;
     height: 100%;
+    ${mediaMobile`
+        
+    `}
 `

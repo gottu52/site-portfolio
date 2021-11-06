@@ -1,9 +1,12 @@
 import icon from "../../images/icon.png";
 import styled from "styled-components";
+import mediaQuery from "styled-media-query";
+
+const mediaMobile = mediaQuery.lessThan("medium");
 
 export const Profile = () => {
     return(
-        <Swrapper>
+        <Sdiv>
             <Sh1>Profile</Sh1>
             <Sflex>
                 <div>
@@ -19,17 +22,20 @@ export const Profile = () => {
                     <Sli>現在は工場の定修工事の現場監督業に従事</Sli>
                 </Sul>
             </Sflex>
-        </Swrapper>
+        </Sdiv>
     )
 }
 
-const Swrapper = styled.div`
+const Sdiv = styled.div`
     background: white;
     border-radius: 8px;
     width: 690px;
     margin: auto;
     padding: 20px;
     text-align: center;
+    ${mediaMobile`
+        width: 400px;
+    `}
 `
 const Sh1 = styled.h1`
     margin: 0;
@@ -39,11 +45,17 @@ const Sflex = styled.div`
     display: flex;
     width: 100%;
     justify-content: center;
+    ${mediaMobile`
+        display: block
+    `}
 `
 
 const Simg = styled.img`
     padding: 40px 20px 0 0;
     width: 250px;
+    ${mediaMobile`
+        width: 150px;
+    `}
 `
 
 const Sul = styled.ul`

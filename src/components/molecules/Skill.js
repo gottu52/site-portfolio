@@ -1,5 +1,8 @@
 import skillImage from "../../images/skill.png";
-import styled from "styled-components"
+import styled from "styled-components";
+import mediaQuery from "styled-media-query";
+
+const mediaMobile = mediaQuery.lessThan("medium");
 
 export const Skill = () => {
     return(
@@ -19,4 +22,8 @@ const Simg = styled.img`
     margin: auto;
     width:700px;
     height: 400px;
+    ${mediaMobile`
+        width: 400px;
+        height: 300px;
+    `}
 `
