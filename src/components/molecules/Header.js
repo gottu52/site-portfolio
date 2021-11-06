@@ -1,8 +1,5 @@
 import styled from "styled-components";
 import mediaQuery from "styled-media-query";
-import { useEffect } from "react"
-import gsap from "gsap";
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Link as Scroll } from "react-scroll"
 import { NavRouter } from "../routers/NavRouter";
 
@@ -10,28 +7,8 @@ const mediaMobile = mediaQuery.lessThan("medium");
 
 export const Header = () => {
 
-    useEffect(() => {
-        if(process.browser) {
-            gsap.registerPlugin(ScrollTrigger)
-            setAnimation()
-        }
-    }, [])
-    
-    const setAnimation = () => {
-        gsap.fromTo(
-            '#animation',
-            {opacity: 0, y: 10},
-            {opacity: 1, y: 0, duration: 1, 
-            scrollTrigger: {
-                trigger: '#animation',
-                start: 'top center',
-                end: 'bottom: center',
-            }}
-        )
-    }
-
     return(
-        <Sdiv id='animation'>
+        <Sdiv>
             {NavRouter.map((router) => {
                         return(
                             <Snav>
@@ -59,6 +36,7 @@ const Sdiv = styled.div`
     top: 0;
     left: 0;
     right: 0;
+    z-index: 2;
     ${mediaMobile`
         height: 70px;
     `}

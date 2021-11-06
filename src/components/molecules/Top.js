@@ -7,7 +7,7 @@ const mediaMobile = mediaQuery.lessThan("medium");
 
 export const Top = () => {
     return(
-        <Sdiv id='animation'>
+        <Sdiv>
             <Stitle>Ryohei's Portfolio</Stitle>
             <Simage src={TopImage} alt="top"/>
             <SanotherImage src={AnotherTopImage} alt="top"/>
