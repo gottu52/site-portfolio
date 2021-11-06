@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Background = (props) => {
     const { children } = props;
-    return <Sdiv>{children}</Sdiv>
+    return <Sdiv id='animation'>{children}</Sdiv>
 }
 
 const Sdiv = styled.div`
