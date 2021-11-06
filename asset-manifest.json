@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/site-portfolio/static/css/main.e7e8a60d.chunk.css",
-    "main.js": "/site-portfolio/static/js/main.a3f68d77.chunk.js",
-    "main.js.map": "/site-portfolio/static/js/main.a3f68d77.chunk.js.map",
-    "runtime-main.js": "/site-portfolio/static/js/runtime-main.4627237e.js",
-    "runtime-main.js.map": "/site-portfolio/static/js/runtime-main.4627237e.js.map",
-    "static/js/2.005d9680.chunk.js": "/site-portfolio/static/js/2.005d9680.chunk.js",
-    "static/js/2.005d9680.chunk.js.map": "/site-portfolio/static/js/2.005d9680.chunk.js.map",
-    "static/js/3.19243ce7.chunk.js": "/site-portfolio/static/js/3.19243ce7.chunk.js",
-    "static/js/3.19243ce7.chunk.js.map": "/site-portfolio/static/js/3.19243ce7.chunk.js.map",
+    "main.js": "/site-portfolio/static/js/main.d241740f.chunk.js",
+    "main.js.map": "/site-portfolio/static/js/main.d241740f.chunk.js.map",
+    "runtime-main.js": "/site-portfolio/static/js/runtime-main.bb9f3745.js",
+    "runtime-main.js.map": "/site-portfolio/static/js/runtime-main.bb9f3745.js.map",
+    "static/js/2.ede7d643.chunk.js": "/site-portfolio/static/js/2.ede7d643.chunk.js",
+    "static/js/2.ede7d643.chunk.js.map": "/site-portfolio/static/js/2.ede7d643.chunk.js.map",
+    "static/js/3.acab9752.chunk.js": "/site-portfolio/static/js/3.acab9752.chunk.js",
+    "static/js/3.acab9752.chunk.js.map": "/site-portfolio/static/js/3.acab9752.chunk.js.map",
     "index.html": "/site-portfolio/index.html",
     "static/css/main.e7e8a60d.chunk.css.map": "/site-portfolio/static/css/main.e7e8a60d.chunk.css.map",
-    "static/js/2.005d9680.chunk.js.LICENSE.txt": "/site-portfolio/static/js/2.005d9680.chunk.js.LICENSE.txt",
+    "static/js/2.ede7d643.chunk.js.LICENSE.txt": "/site-portfolio/static/js/2.ede7d643.chunk.js.LICENSE.txt",
     "static/media/GymImage.fa5ddad6.png": "/site-portfolio/static/media/GymImage.fa5ddad6.png",
     "static/media/HairSalonImage.bf10236e.png": "/site-portfolio/static/media/HairSalonImage.bf10236e.png",
     "static/media/RunningMethodImage.3a2da436.png": "/site-portfolio/static/media/RunningMethodImage.3a2da436.png",
@@ -22,9 +22,9 @@
     "static/media/topImage2.033d1236.png": "/site-portfolio/static/media/topImage2.033d1236.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4627237e.js",
-    "static/js/2.005d9680.chunk.js",
+    "static/js/runtime-main.bb9f3745.js",
+    "static/js/2.ede7d643.chunk.js",
     "static/css/main.e7e8a60d.chunk.css",
-    "static/js/main.a3f68d77.chunk.js"
+    "static/js/main.d241740f.chunk.js"
   ]
 }
