@@ -17,7 +17,7 @@ export const Profile = () => {
                     <li>生年月日：１９９９年１月２８日</li>
                     <li>趣味：ジョギング・筋トレ</li>
                     <li>経歴：法政大学スポーツ健康学部卒業</li>
-                    <Sli>大学では陸上部で長距離選手として活動</Sli>
+                    <Sli>大学では長距離選手として活動</Sli>
                     <Sli>新卒で現場監督の派遣会社に就職</Sli>
                     <Sli>現在は工場の定修工事の現場監督業に従事</Sli>
                 </Sul>
@@ -29,12 +29,12 @@ export const Profile = () => {
 const Sdiv = styled.div`
     background: white;
     border-radius: 8px;
-    width: 600px;
+    width: 700px;
     margin: auto;
     padding: 20px;
     text-align: center;
     ${mediaMobile`
-        width: 400px;
+        width: 330px;
     `}
 `
 const Sh1 = styled.h1`
