@@ -29,7 +29,7 @@ export const Profile = () => {
 const Sdiv = styled.div`
     background: white;
     border-radius: 8px;
-    width: 690px;
+    width: 600px;
     margin: auto;
     padding: 20px;
     text-align: center;
