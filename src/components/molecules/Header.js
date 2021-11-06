@@ -17,7 +17,11 @@ const Sdiv = styled.div`
     background-color: black;
     color: white;
     height: 100px;
+    position: fixed;
     margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 `
 
 const Sul = styled.ul`

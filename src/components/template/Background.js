@@ -8,5 +8,5 @@ export const Background = (props) => {
 const Sdiv = styled.div`
     width: 100%;
     height:100%;
-    background: linear-gradient(blue, pink);
+    background: linear-gradient(#A8C5E1, black);
 `

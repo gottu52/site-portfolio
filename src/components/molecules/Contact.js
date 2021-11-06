@@ -15,6 +15,7 @@ export const Contact = () => {
 
 const Sdiv = styled.div`
     width: 60%;
+    max-width: 500px;
     margin: auto;
     padding: 20px;
     text-align: center;
