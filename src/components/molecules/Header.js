@@ -4,10 +4,10 @@ export const Header = () => {
     return(
         <Sdiv>
             <Sul>
-                <Sli>Profile</Sli>
-                <Sli>Skill</Sli>
-                <Sli>Works</Sli>
-                <Sli>Contact</Sli>
+                <Sli><Sa href="#profile">Profile</Sa></Sli>
+                <Sli><Sa href="#skill">Skill</Sa></Sli>
+                <Sli><Sa href="#works">Works</Sa></Sli>
+                <Sli><Sa href="#contact">Contact</Sa></Sli>
             </Sul>
         </Sdiv>
     )
@@ -35,4 +35,9 @@ const Sul = styled.ul`
 const Sli = styled.li`
     width: 25%;
     margin-top: 40px;
+`
+
+const Sa = styled.a`
+    color: white;
+    text-decoration: none;
 `

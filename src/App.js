@@ -16,13 +16,13 @@ function App() {
       <Header />
       <Top />
       <Background>  
-        <SpanBox />
+        <SpanBox id="profile"/>
         <Profile />
-        <SpanBox />
+        <SpanBox id="skill"/>
         <Skill />
-        <SpanBox />
+        <SpanBox id="works"/>
         <Works />
-        <SpanBox />
+        <SpanBox id="contact"/>
         <Contact />
         <SpanBox />        
         <Footer />

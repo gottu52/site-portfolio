@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
-export const SpanBox = () => {
-    return  <Sdiv></Sdiv>
+export const SpanBox = (props) => {
+    const { id } = props;
+    return  <Sdiv id={id}></Sdiv>
     }
 
 const Sdiv = styled.div`
