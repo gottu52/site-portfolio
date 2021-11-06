@@ -1,4 +1,5 @@
 import TopImage from "../../images/topImage.png";
+import AnotherTopImage from "../../images/topImage2.png";
 import styled from "styled-components";
 import mediaQuery from "styled-media-query";
 
@@ -9,6 +10,7 @@ export const Top = () => {
         <Sdiv>
             <Stitle>Ryohei's Portfolio</Stitle>
             <Simage src={TopImage} alt="top"/>
+            <SanotherImage src={AnotherTopImage} alt="top"/>
         </Sdiv>
         
     )
@@ -34,6 +36,15 @@ const Simage = styled.img`
     width: 100%;
     height: 100%;
     ${mediaMobile`
-        
+        display: none;
+    `}
+`
+
+const SanotherImage = styled.img`
+    width: 100%;
+    height: 100%;
+    display: none;
+    ${mediaMobile`
+        display: block;
     `}
 `
