@@ -14,7 +14,7 @@ export const Works = () => {
             <Sflex>
                <Sul>
                     <li>
-                        <Simg src={runningMethod} alt="runningMethod" />
+                        <a href="https://gottu52.github.io/running-method/" target="_blank" rel="noopener noreferrer"><Simg src={runningMethod} alt="runningMethod" /></a>
                     </li>
                     <Sli>Running Method</Sli>
                     <Sli>製作日数：4日</Sli>
@@ -22,7 +22,8 @@ export const Works = () => {
                 </Sul>
                 <Sul>
                     <li>
-                        <Simg src={hairSalon} alt="hairSalon" />
+                        <a href="https://gottu52.github.io/hair-salon/" target="_blank" rel="noopener noreferrer"><Simg src={hairSalon} alt="hairSalon" /></a>
+                        
                     </li>
                     <Sli>Hair Salon</Sli>
                     <Sli>製作日数：2日</Sli>
@@ -30,7 +31,7 @@ export const Works = () => {
                 </Sul> 
                 <Sul>
                     <li>
-                        <Simg src={gym} alt="gym" />
+                    <a href="https://gottu52.github.io/gold-gym/" target="_blank" rel="noopener noreferrer"><Simg src={gym} alt="gym" /></a>
                     </li>
                     <Sli>Gold Gym</Sli>
                     <Sli>製作日数：3日</Sli>
