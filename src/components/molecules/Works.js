@@ -2,6 +2,7 @@ import styled from "styled-components";
 import runningMethod from "../../images/RunningMethodImage.png";
 import hairSalon from "../../images/HairSalonImage.png";
 import gym from "../../images/GymImage.png";
+import lecture from "../../images/LectureImage.png";
 import thisSite from "../../images/portfolioImage.png"
 import mediaQuery from "styled-media-query";
 
@@ -32,6 +33,14 @@ export const Works = () => {
                 <Sul>
                     <li>
                     <a href="https://gottu52.github.io/gold-gym/" target="_blank" rel="noopener noreferrer"><Simg src={gym} alt="gym" /></a>
+                    </li>
+                    <Sli>Gold Gym</Sli>
+                    <Sli>製作日数：3日</Sli>
+                    <Sli>使用言語：HTML,CSS,JavaScript</Sli>
+                </Sul> 
+                <Sul>
+                    <li>
+                    <a href="https://gottu52.github.io/Udemy-Lecture-Javascript/" target="_blank" rel="noopener noreferrer"><Simg src={lecture} alt="lecture" /></a>
                     </li>
                     <Sli>Gold Gym</Sli>
                     <Sli>製作日数：3日</Sli>
