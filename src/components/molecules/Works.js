@@ -42,9 +42,9 @@ export const Works = () => {
                     <li>
                     <a href="https://gottu52.github.io/Udemy-Lecture-Javascript/" target="_blank" rel="noopener noreferrer"><Simg src={lecture} alt="lecture" /></a>
                     </li>
-                    <Sli>Gold Gym</Sli>
-                    <Sli>製作日数：3日</Sli>
-                    <Sli>使用言語：HTML,CSS,JavaScript</Sli>
+                    <Sli>Udemy Lecture JavaScript</Sli>
+                    <Sli>製作日数：7日</Sli>
+                    <Sli>使用言語：HTML,SCSS,JavaScript</Sli>
                 </Sul> 
                 <Sul>
                     <li>
