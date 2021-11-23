@@ -3,6 +3,7 @@ import runningMethod from "../../images/RunningMethodImage.png";
 import hairSalon from "../../images/HairSalonImage.png";
 import gym from "../../images/GymImage.png";
 import lecture from "../../images/LectureImage.png";
+import todo from "../../images/TodoAppImage.png";
 import thisSite from "../../images/portfolioImage.png"
 import mediaQuery from "styled-media-query";
 
@@ -45,6 +46,14 @@ export const Works = () => {
                     <Sli>Udemy Lecture JavaScript</Sli>
                     <Sli>製作日数：7日</Sli>
                     <Sli>使用言語：HTML,SCSS,JavaScript</Sli>
+                </Sul> 
+                <Sul>
+                    <li>
+                    <a href="https://gottu52.github.io/Todo-App/" target="_blank" rel="noopener noreferrer"><Simg src={todo} alt="todo" /></a>
+                    </li>
+                    <Sli>Todo App</Sli>
+                    <Sli>製作日数：2日</Sli>
+                    <Sli>使用言語：HTML,CSS,JavaScript,React,TypeScript</Sli>
                 </Sul> 
                 <Sul>
                     <li>
