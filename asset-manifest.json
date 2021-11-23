@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/site-portfolio/static/css/main.e7e8a60d.chunk.css",
-    "main.js": "/site-portfolio/static/js/main.85d2a271.chunk.js",
-    "main.js.map": "/site-portfolio/static/js/main.85d2a271.chunk.js.map",
+    "main.js": "/site-portfolio/static/js/main.da0445c0.chunk.js",
+    "main.js.map": "/site-portfolio/static/js/main.da0445c0.chunk.js.map",
     "runtime-main.js": "/site-portfolio/static/js/runtime-main.224c4f24.js",
     "runtime-main.js.map": "/site-portfolio/static/js/runtime-main.224c4f24.js.map",
     "static/js/2.b8e0d151.chunk.js": "/site-portfolio/static/js/2.b8e0d151.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.b8e0d151.chunk.js.LICENSE.txt": "/site-portfolio/static/js/2.b8e0d151.chunk.js.LICENSE.txt",
     "static/media/GymImage.fa5ddad6.png": "/site-portfolio/static/media/GymImage.fa5ddad6.png",
     "static/media/HairSalonImage.bf10236e.png": "/site-portfolio/static/media/HairSalonImage.bf10236e.png",
+    "static/media/LectureImage.b301f1d4.png": "/site-portfolio/static/media/LectureImage.b301f1d4.png",
     "static/media/RunningMethodImage.3a2da436.png": "/site-portfolio/static/media/RunningMethodImage.3a2da436.png",
     "static/media/icon.2b17e7bd.png": "/site-portfolio/static/media/icon.2b17e7bd.png",
     "static/media/portfolioImage.32764573.png": "/site-portfolio/static/media/portfolioImage.32764573.png",
@@ -25,6 +26,6 @@
     "static/js/runtime-main.224c4f24.js",
     "static/js/2.b8e0d151.chunk.js",
     "static/css/main.e7e8a60d.chunk.css",
-    "static/js/main.85d2a271.chunk.js"
+    "static/js/main.da0445c0.chunk.js"
   ]
 }
